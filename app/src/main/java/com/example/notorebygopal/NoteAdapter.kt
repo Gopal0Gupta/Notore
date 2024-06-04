@@ -5,6 +5,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
+import com.example.notorebygopal.databinding.NoteItemBinding
 import com.example.notorebygopal.models.NoteResponse
 
 class NoteAdapter(private val onNoteClicked: (NoteResponse) -> Unit) :
@@ -27,7 +28,7 @@ class NoteAdapter(private val onNoteClicked: (NoteResponse) -> Unit) :
 
         fun bind(note: NoteResponse) {
             binding.title.text = note.title
-            binding.desc.text = note.description
+            binding.desc.text = note.discription
             binding.root.setOnClickListener {
                 onNoteClicked(note)
             }

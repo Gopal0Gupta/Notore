@@ -10,7 +10,6 @@ import androidx.lifecycle.Observer
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.findNavController
 import com.example.notorebygopal.databinding.FragmentLoginBinding
-import com.example.notorebygopal.databinding.FragmentRegisterBinding
 import com.example.notorebygopal.models.UserRequest
 import com.example.notorebygopal.utils.Helper
 import com.example.notorebygopal.utils.NetworkResult

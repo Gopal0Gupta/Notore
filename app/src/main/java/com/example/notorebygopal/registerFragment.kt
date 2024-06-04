@@ -5,15 +5,16 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.view.isVisible
 import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.Observer
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.findNavController
 import com.example.notorebygopal.databinding.FragmentRegisterBinding
 import com.example.notorebygopal.models.UserRequest
+import com.example.notorebygopal.utils.Helper.Companion.hideKeyboard
 import com.example.notorebygopal.utils.NetworkResult
 import com.example.notorebygopal.utils.TokenManager
-import com.google.android.material.internal.ViewUtils.hideKeyboard
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 

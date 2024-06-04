@@ -1,8 +1,9 @@
-package com.example.notorebygopal.ui
+package com.example.notorebygopal
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.example.notorebygopal.Repository.NoteRepository
 import com.example.notorebygopal.models.NoteRequest
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
@@ -37,8 +38,4 @@ class NoteViewModel @Inject constructor(private val noteRepository: NoteReposito
             noteRepository.deleteNote(noteId)
         }
     }
-
-
-
-
 }
