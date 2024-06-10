@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.notorebygopal'
+    namespace 'com.gopal.notorebygopal'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.example.notorebygopal"
+        applicationId "com.gopal.notorebygopal"
         minSdk 21
         targetSdk 34
         versionCode 1
